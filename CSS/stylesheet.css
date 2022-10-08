@@ -1,4 +1,9 @@
 h1 {
     color:rgb(234, 41, 41) ;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.CentAl {
     text-align: center;
 }
