@@ -4,6 +4,11 @@ h1 {
     text-align: center;
 }
 
+.FtFy {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .CentAl {
     text-align: center;
+    background-color: lightblue;
 }
