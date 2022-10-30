@@ -1,19 +1,32 @@
 h1 {
-    /* color:rgb(234, 41, 41) ;
-    background-color: lightblue;
-    text-align: center; */
-}
-
-.FtFy {
     font-family: 'Montserrat', sans-serif;
 }
 
-.CentAl {
-    text-align: center;
-    background-color: lightblue;
+body{
+    background-color: #EDDDD0;
+}
+
+header{
+    background-color: #A6CAD4;
+}
+
+footer {
+    background-color: #A6CAD4;
+}
+
+.content-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.content-list li{
+    padding:10px;
+    display:inline-block;
 }
 
 .job-item {
     display:grid;
     grid-template-columns: 2fr 1fr;
 }
+
