@@ -30,3 +30,8 @@ footer {
     grid-template-columns: 2fr 1fr;
 }
 
+.course-item {
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+}
+
