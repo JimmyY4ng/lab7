@@ -2,6 +2,10 @@ h1 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.c-align {
+    text-align: center;
+}
+
 body{
     background-color: #EDDDD0;
 }
@@ -16,6 +20,7 @@ footer {
 
 .content-list{
     list-style-type: none;
+    padding:0;
     display: flex;
     justify-content: center;
 }
@@ -33,5 +38,20 @@ footer {
 .course-item {
     display:grid;
     grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+}
+
+@media (max-width:600px) {
+    .course-item {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    .content-list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+    }
 }
 
